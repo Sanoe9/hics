@@ -11,9 +11,9 @@
 // }
 // console.log(sayHello.prototype);
 
-// const foo = [1, 2, 3];
-// const [n] = [foo];
-// console.log(n);
+const foo = [1, 2, 3];
+const [n] = [foo];
+console.log(n);
 
 var v = 1;
 var f1 = function () {
