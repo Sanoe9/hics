@@ -12,4 +12,3 @@ myFunction(...myArray);
 // why is the output 'lizard' ?
 myFunction('rock', 'paper', 'scissors', 'lizard', 'spock');
 const [a, ...[X]] = ['scissors', 'lizard', 'spock'];
-// apparently there is a difference between ...[1, 2, 3] and ...1
