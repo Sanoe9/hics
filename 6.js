@@ -4,6 +4,6 @@
 
 // function double = () => return x * 2; // <- this is wrong
 
-// const double = function(x) { return x * 2; };
+const double = function(x) { return x * 2; };
 
 console.log(double(2));
