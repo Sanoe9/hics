@@ -35,10 +35,20 @@
 
 // console.log(output);
 
-var x = 1;
-var output = (function() {
-  delete x;
-  return x;
-})();
+// var x = 1;
+// var output = (function() {
+//   delete x;
+//   return x;
+// })();
 
-console.log(output);
+// console.log(output);
+
+
+
+(function() {
+    var a = b = 5;
+})();
+  
+// you would think that var a = 5 and var b = 5
+// but no js is weird, so its gonna be var a = b and b = 5 and because b isnt declared using var, so its attached to the global scope. so the console will log 5
+console.log(b);
