@@ -9,3 +9,15 @@ const createBase = (number) => {
         return number + numero;
     }
 };
+
+
+// Write a function that would allow you to do this.
+// multiply(5)(6);
+
+const multiply = (num) => {
+    return (number) => {
+        return num * number;
+    }
+};
+
+console.log(multiply(5)(6));
